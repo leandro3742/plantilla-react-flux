@@ -1,0 +1,72 @@
+#cuerpoDetalle{
+    
+    background: no-repeat;
+    background-size: 100%;
+    height: 1000px;
+    width: 100% ;
+    
+}
+
+#nombreDetalle{
+    // display: inline-block;
+    position: absolute;
+    padding-bottom: 4px;
+   
+    
+}
+
+#soloTexto{
+    margin-bottom: -1px;
+    
+}
+
+#textoDetalle{
+    margin-top: 10px;
+    
+}
+
+#iconoDetalle{
+    margin-left: -20px;
+    // z-index: 3;
+    
+}
+#iconoDetalle2:hover{
+    color: #7bffc6;
+    font-size: large;
+   filter: drop-shadow(0 1px 1px rgb(75, 75, 75));
+}
+
+.vvideo{
+    width: 100%;
+}
+
+.videoDescripcion{
+    margin-top: -610px;
+    margin-left: 20px;
+}
+
+
+
+@media (max-width: 415px) {
+    .videoDescripcion{
+    margin-top: -210px;
+}
+.soloTextoNu{
+    font-size: small;
+}
+ 
+}
+
+@media (max-width: 380px) {
+    .videoDescripcion{
+    margin-top: -190px;
+}
+.soloTextoNu{
+    font-size: small;
+}
+ 
+}
+#contactoDetalle{
+    position: absolute;
+    display: inline-block;
+}

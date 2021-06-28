@@ -1,0 +1,34 @@
+
+// .cardInicio{
+
+// }
+#botonVerdeInicio{
+    background-color: #7bffc6;
+    color: white;
+    font-weight: bold;
+
+}
+#botonVerdeInicio:hover{
+    color: black;
+}
+#botonVerdeSecundario{
+   border-color: #7bffc6;
+   color: #719e8b;
+}
+#botonVerdeSecundario:hover{
+    background-color:#7bffc6;
+    color: black;
+}
+.card-footer{
+    box-sizing: border-box;
+}
+
+#olvidasteContraseña:hover{
+    text-decoration: underline;
+}
+.errvalidacion{
+    border-color: #dc3545 !important;
+}
+.footerInicio{
+    margin: 0 -14px;
+}

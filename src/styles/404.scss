@@ -1,0 +1,52 @@
+#contenedor404{ 
+    height: 100vh;
+    flex-direction: column;
+    // margin-top: 50px;
+}
+#filaOops{
+margin-top: 100px;
+}
+
+#imagenError{
+     width: 60%;
+    margin-top: -30px;
+}
+
+#oops{
+  font-size: 350%;
+
+}
+
+#fraseError{
+    margin-top: -15px;
+  font-size: 120%;
+
+}
+
+#btnInicio{
+    width: 150px;
+    margin-top: 5px;
+    background-color: #7bffc6;
+    color: white;
+    margin-bottom: 30px;
+
+}
+
+#btnInicio:hover{
+    color: black;
+
+}
+
+@media (max-width: 760px) {
+  #imagenError{
+     width:120%;
+
+}
+
+#btnInicio{
+    margin-top: 20px;
+    
+
+}
+
+}

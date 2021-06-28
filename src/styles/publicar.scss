@@ -1,0 +1,41 @@
+.cuerpoPublicar{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.fuentePublicar{
+    font-size: 25px;
+    font-style: bold;
+}
+
+.contenedorPublicar{
+width: 100%;
+background-color: rgba(255, 255, 255, .9);
+padding: 30px;
+}
+
+.botonPublicar{
+    background-color: #7bffc6;
+    font-weight: bold;
+    border: none!important;
+}
+.botonPublicar:hover{
+    color: black;
+    background-color: #7bffc6;
+}
+
+// .botonCancelar{
+//     background-color: none;
+//     border: 1px solid red;
+   
+// }
+
+// .botonConfirmar{
+//     background-color: #7bffc6;
+   
+// }
+
+Spinner{
+    z-index: 3;
+}
